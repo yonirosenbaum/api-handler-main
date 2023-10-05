@@ -1,0 +1,98 @@
+.heading {
+  font-size: 2rem;
+  color: #464646;
+  font-family: "Arial";
+}
+
+.inputWrapper {
+  position: relative;
+  display: inline-block;
+  width: 160px;
+}
+
+.card {
+  border: 2px solid #000;
+  padding: 8px;
+  border-radius: 8px;
+  background: #d3d3d3;
+}
+
+.card-container {
+  display: flex;
+  gap: 8px;
+  flex: 0 0 25em;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  background-color: #464646;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  font-weight: 500;
+}
+
+.dropdownItem {
+  padding: 8px 0 8px 4px;
+  background: #eee;
+  margin: 4px 0;
+  border-radius: 4px;
+}
+
+.outlined {
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inputUnderlined {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1em;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #797979;
+  &:focus + .underline {
+    width: 100%;
+  }
+}
+
+.aboutText {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.pageContainer {
+  min-height: 100vh;
+  padding: 16px;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 0;
+  background-color: #000;
+  transition: 0.3s;
+}

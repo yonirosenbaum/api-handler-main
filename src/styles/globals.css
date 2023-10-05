@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+p {
+  font-size: 0.8rem;
+  font-family: "Arial";
+  margin: 0;
+  color: #464646;
+}
+
+ul {
+  list-style: none;
+  padding-left: unset;
+}
+
+li {
+  font-family: "Arial";
+  color: #464646;
+}
